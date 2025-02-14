@@ -1,9 +1,6 @@
-discourse-composer-css-tooltips
+Discourse Composer CSS Tooltips
 
-<div data-ttext>Hover over me!
-  <span data-ttip>This is the Tooltip Content!</span>
-</div>
-
+Based on: CSS Tool Tip, from https://www.w3schools.com/css/css_tooltip.asp
 ---
 
 ### USAGE
