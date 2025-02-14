@@ -1,16 +1,16 @@
 Discourse Composer CSS Tooltips
 
-Based on: CSS Tool Tip, from https://www.w3schools.com/css/css_tooltip.asp
+### Based on: CSS Tool Tip, from https://www.w3schools.com/css/css_tooltip.asp
 ---
 
-### USAGE
+#### USAGE
 ```
 <div data-ttext>Hover over me!
   <span data-ttip>This is the Tooltip Content!</span>
 </div>
 ```
 
-### CODE
+#### CODE
 ```
 /* CSS Tool Tip, from https://www.w3schools.com/css/css_tooltip.asp */
 
