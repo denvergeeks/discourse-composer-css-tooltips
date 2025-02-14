@@ -1,8 +1,8 @@
 {
-  "name": "Glassify",
+  "name": "Composer CSS Tooltips",
   "component": true,
-  "about_url": "https://github.com/denvergeeks/discourse-glassify/blob/main/README.md",
-  "license_url": "https://github.com/denvergeeks/discourse-glassify/blob/main/LICENSE",
+  "about_url": "https://github.com/denvergeeks/discourse-composer-css-tooltips/blob/main/README.md",
+  "license_url": "https://github.com/denvergeeks/discourse-composer-css-tooltips/blob/main/LICENSE",
   "authors": "@denvergeeks", 
   "theme_version": "1.0",
   "minimum_discourse_version": null,
