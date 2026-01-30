@@ -5,9 +5,9 @@ Discourse Composer CSS Tooltips
 
 #### USAGE
 ```
-<div data-ttext>Hover over me!
+<span data-ttext>Hover over me!
   <span data-ttip>This is the Tooltip Content!</span>
-</div>
+</span>
 ```
 
 #### CODE
@@ -20,7 +20,7 @@ Discourse Composer CSS Tooltips
 }
 
 /* Tooltip Anchor Text Container */
-div[data-ttext] {
+span[data-ttext] {
   position: relative;
   display: inline-block;
   border-bottom: 1px dashed #ccc; /* dots under the anchor text */
@@ -44,7 +44,7 @@ span[data-ttip] {
 }
 
 /* Show the Tooltip Content Container when you mouse over the Tooltip Anchor Text */
-div[data-ttext]:hover {
+span[data-ttext]:hover {
   span[data-ttip] {
     visibility: visible;
   }
