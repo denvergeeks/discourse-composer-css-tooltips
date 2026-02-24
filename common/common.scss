@@ -8,6 +8,7 @@
 /* Tooltip Anchor Text Container */
 span[data-ttext] {
   border-bottom: 1px dashed #ccc; /* dots under the anchor text */
+  visibility: visible !important;
 }
 
 span[data-ttip] {
