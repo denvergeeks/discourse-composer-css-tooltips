@@ -39,5 +39,6 @@ span[data-ttext]:hover {
   flex-wrap: wrap;
   span[data-ttip] {
     visibility: visible;
+    position: relative;
   }  
 }
