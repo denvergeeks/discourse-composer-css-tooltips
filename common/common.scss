@@ -17,7 +17,7 @@ span[data-ttip] {
   visibility: hidden;
   /* width: 120px; */
   width: max-content;
-  background-color: black;
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 0 .3em .1em;
@@ -26,8 +26,9 @@ span[data-ttip] {
   z-index: 1;
   /* Position the Tooltip - Use half of the width (120/2 = 60), to center the tooltip */
   bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
+  /* left: 50%; */
+  /* margin-left: -60px; */
+    left: 0;
 }
 
 /* Show the Tooltip Content Container when you mouse over the Tooltip Anchor Text */
