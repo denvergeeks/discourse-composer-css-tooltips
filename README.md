@@ -5,9 +5,7 @@ Discourse Composer CSS Tooltips
 
 #### USAGE
 ```
-<span data-ttext>Hover over me!
-  <span data-ttip>This is the Tooltip Content!</span>
-</span>
+<span data-ttext>Hover over me!<span data-ttip>This is the Tooltip Content!</span></span>
 ```
 
 #### CODE
