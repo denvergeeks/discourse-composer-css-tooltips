@@ -33,7 +33,11 @@ span[data-ttip] {
 
 /* Show the Tooltip Content Container when you mouse over the Tooltip Anchor Text */
 span[data-ttext]:hover {
+  display: flex;
+  border-bottom: none;
+  flex-direction: row;
+  flex-wrap: wrap;
   span[data-ttip] {
     visibility: visible;
-  }
+  }  
 }
