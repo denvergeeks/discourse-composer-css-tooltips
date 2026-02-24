@@ -31,6 +31,6 @@ span[data-ttip] {
 /* Show the Tooltip Content Container when you mouse over the Tooltip Anchor Text */
 span[data-ttext]:hover {
   span[data-ttip] {
-    visibility: visible;
+    visibility: visible !important;
   }
 }
