@@ -7,26 +7,25 @@
 
 /* Tooltip Anchor Text Container */
 span[data-ttext] {
-  position: relative;
-  display: inline-block;
   border-bottom: 1px dashed #ccc; /* dots under the anchor text */
 }
 
-/* Tooltip Content Container */
 span[data-ttip] {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-  /* Position the Tooltip - Use half of the width (120/2 = 60), to center the tooltip */
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
+    visibility: hidden;
+    /* width: fit-content; */
+    /* max-width: 700px; */
+    /* display: inline-table; */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0 .3em .1em;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    /* bottom: 100%; */
+    /* left: 50%; */
+    /* margin-left: -60px; */
+    flex-direction: row;
 }
 
 /* Show the Tooltip Content Container when you mouse over the Tooltip Anchor Text */
