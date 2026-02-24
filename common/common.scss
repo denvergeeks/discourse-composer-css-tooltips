@@ -15,7 +15,8 @@ span[data-ttext] {
 /* Tooltip Content Container */
 span[data-ttip] {
   visibility: hidden;
-  width: 120px;
+  /* width: 120px; */
+  width: max-content;
   background-color: black;
   color: #fff;
   text-align: center;
